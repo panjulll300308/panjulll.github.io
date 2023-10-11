@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Raleway&display=swap');
+
+body
+{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    background-image:url(/linktree/imagee/adrien-olichon-gOdavfpH-3s-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.main-link
+{
+    width: 100%;
+    max-width: 650px;
+    margin: 10px;
+    padding: 50px 0 100px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.Profile-PIC img
+{
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    border:double 6px #000;
+    box-shadow: 0 0 30px rgb(61, 61, 61);
+}
+.identity
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #e0e0ee;
+    font-size: 23px;
+    text-shadow: 6.5px 6.5px 8px #454545;
+}
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+.item
+{
+    background-color: #070707;
+    margin: 7px 2px 10px 2px;
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+    box-shadow: 0 0 7px rgb(255, 255, 255);
+}
+
+.item:hover
+{
+    box-shadow: 0 5px 30px #454545, 0 0 50px #454545, 0 0 30px #454545;
+    transition: cubic-bezier(.07, 1.41, .82, 1.41); 
+    transform: scale(1.05);
+    transition: 0.5s;
+    background-color: #ffffff;
+    font-weight: 600;
+    color: #000;
+    width: 520px;
+    height: 50px;
+}
+
+.item .icon 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1px 10px;
+    color: #000;
+}
+
+.item p {
+    margin-right: 50px;
+}
+
+/* .item p::after
+{
+    content: "";
+    position: absolute;
+    background-color: #070707;
+    height: 3px;
+    width: 520px;
+    left: 0;
+    bottom: -10px;
+} */
+
+
+
